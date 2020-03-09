@@ -1,0 +1,145 @@
+.carousel {
+    margin-top: 70px;
+    width: 70%;
+    margin: auto;
+}
+
+.carousel h3 {
+    margin-top: 90px;
+    color: #b30000;
+    font-weight: bold;
+    font-family: 'Cookie', serif;
+}
+
+/* ######### TESTIMONIAL SECTION #########*/
+.testimonial {
+    margin-top: 30px;
+    width: 84%;
+    margin: auto;
+}
+
+.testimonial h3 {
+    color: #b30000;
+    font-weight: bold;
+    font-family: 'Cookie', serif;
+    text-align: center;
+    font-size: 32px;
+}
+
+.testimonial-box-content {
+    padding: 13px 20px;
+    background: lightgreen;
+    border-radius: 8px;
+    border-bottom: 2px solid #333;
+}
+
+.testimonial-box-content h4 {
+    font-size: 18px;
+    color: #b30000;
+    font-weight: bold;
+}
+
+.testimonial-box-content .testimonial-rating {
+    font-size: 13px;
+}
+
+.testimonial-box-content .testimonial-details {
+    font-size: 14px;
+}
+
+.testimonial-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.testimonial-box-image {
+    width: 70px;
+}
+
+.testimonial-image .image-title {
+    font-size: 13px;
+}
+
+.testimonial-image .image-location {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Cookie', serif;
+}
+
+@media screen and (max-width: 1100px) {
+
+    /* ######### TESTIMONIAL SECTION #########*/
+    .testimonial {
+        margin-top: 30px;
+        width: 89%;
+    }
+
+    .testimonial h3 {
+        font-size: 32px;
+    }
+
+    .testimonial-box-content {
+        padding: 13px 20px;
+    }
+
+    .testimonial-box-content h4 {
+        font-size: 17px;
+    }
+
+    .testimonial-box-content .testimonial-rating {
+        font-size: 13px;
+    }
+
+    .testimonial-box-content .testimonial-details {
+        font-size: 12px;
+    }
+
+    .testimonial-image {
+        margin-top: 20px;
+    }
+
+    .testimonial-box-image {
+        width: 50px;
+    }
+
+    .testimonial-image .image-title {
+        font-size: 12px;
+    }
+
+    .testimonial-image .image-location {
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width: 779px) {
+
+    /* ######### CAROUSEL SECTION #########*/
+    .carousel {
+        width: 85%;
+    }
+
+}
+
+@media screen and (max-width: 510px) {
+
+    .testimonial-box-content {
+        padding: 31px 30px;
+    }
+
+    .testimonial-box-image {
+        width: 70px;
+    }
+
+    .testimonial-image .image-title {
+        font-size: 15px;
+    }
+
+    .testimonial-image .image-location {
+        font-size: 19px;
+    }
+
+}
